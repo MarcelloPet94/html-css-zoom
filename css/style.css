@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 
-p {
-    display: block;
+main {
+    background-color: #010101;
 }
 
 .up_bar {
@@ -18,10 +18,15 @@ p {
 .ic_text_label {
     display: inline-block;
     padding: 6px 4px;
-    margin: 0 2px 0 8px;
+    margin: 0 4px 0 8px;
     border-radius: 5px;
     background-color: #4a4a4a;
     color: #fff;
+}
+
+.ic_text_label i {
+    font-size: 13px;
+    margin-right: 4px;
 }
 
 .small_ic {
@@ -33,7 +38,6 @@ p {
     justify-content: center;
     align-items: center;
     height: 85vh;
-    background-color: #010101;
 }
 
 .video_grid {
@@ -48,6 +52,7 @@ p {
 }
 
 .box_video {
+    position: relative;
     width: 14%;
     margin: 1px;
     overflow: hidden;
@@ -55,6 +60,16 @@ p {
 
 .box_video img {
     width: 100%;
+}
+
+.name_users {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 9999;
 }
 
 header {
