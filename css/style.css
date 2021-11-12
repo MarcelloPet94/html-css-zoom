@@ -43,17 +43,18 @@ main {
 .video_grid {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     align-content: flex-start;
     flex-wrap: wrap;
     width: 80%;
-    height: 80%;
+    height: 90%;
 
 }
 
 .box_video {
     position: relative;
-    width: 14%;
-    margin: 1px;
+    width: 13%;
+    margin:0 2px 8px;
     overflow: hidden;
 }
 
