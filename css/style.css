@@ -85,11 +85,18 @@ header {
 
 .user_control {
     display: flex;
-    flex-direction: row;
     height: 10vh;
     width: 33.3vw;
     padding: 0 0 0 8px;
     border: 1px solid cyan;
+}
+
+.sx, .mid {
+    flex-direction: row;
+}
+
+.dx {
+    justify-content: flex-end;
 }
 
 .ic_text_control {
