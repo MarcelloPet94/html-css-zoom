@@ -46,7 +46,7 @@ main {
     justify-content: center;
     align-content: flex-start;
     flex-wrap: wrap;
-    width: 80%;
+    width: 90%;
     height: 90%;
 
 }
@@ -77,3 +77,33 @@ header {
     background-color: brown;
 }
 
+.func_bar {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.user_control {
+    display: flex;
+    flex-direction: row;
+    height: 10vh;
+    width: 33.3vw;
+    padding: 0 0 0 8px;
+    border: 1px solid cyan;
+}
+
+.ic_text_control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90px;
+    border: 1px solid rosybrown;
+    color: #fff;
+    margin-right: 16px;
+}
+
+.ic_text_control i {
+    font-size: 42px;
+    margin: 4px;
+}
