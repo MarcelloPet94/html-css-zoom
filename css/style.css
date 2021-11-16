@@ -59,6 +59,7 @@ body {
     width: 90%;
     height: 90%;
     z-index: 1;
+    overflow: auto;
 
 }
 
@@ -84,7 +85,7 @@ body {
 }
 
 header {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     display: flex;
     align-items: center;
